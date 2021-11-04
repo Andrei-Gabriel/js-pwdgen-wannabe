@@ -50,7 +50,7 @@ body {
                     margin-top: 10px;
                 }
                     #show-or-hide {
-                        display: inline-block;
+                        font-size: 20px;
                         cursor: pointer;
                     }
                     #hide-password {
