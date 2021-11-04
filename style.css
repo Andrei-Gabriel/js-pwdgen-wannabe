@@ -3,4 +3,57 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 100%;
+    font-family: 'Lato', sans-serif;
 }
+body {
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+}
+    body > div {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 50px;
+        width: 60%;
+        text-align: center;
+    }
+        header {
+            background-color: rgb(77, 129, 207);
+            border-radius: 20px;
+        }
+            h1 {
+                font-size: 30px;
+                line-height: 1.8;
+            }
+
+        main {
+            margin-top: 10px;
+            border-radius: 20px;
+            background-color: rgb(139, 204, 206);
+            height: 170px;
+        }
+            main > div {
+                position: relative;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+                main div span {
+                    display: block;
+                    font-size: 20px;
+                }
+                #utente {
+                    margin-top: 5px;
+                    font-size: 16px;
+                }
+                main div > div {
+                    margin-top: 10px;
+                }
+                    #show-or-hide {
+                        display: inline-block;
+                        cursor: pointer;
+                    }
+                    #hide-password {
+                        display: none;
+                    }
+                    

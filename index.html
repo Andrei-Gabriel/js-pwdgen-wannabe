@@ -8,10 +8,46 @@
     <!-- Link css -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+
+    <!-- Link font cdnjs -->
+        <!-- Link Fonts Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title>(Insicurissimo) Password Generator</title>
 </head>
 <body>
-    
+
+    <div>
+        <!-- Inizio header -->
+        <header>
+            <h1>(Insicurissimo) Password Generator</h1>
+        </header>
+        
+        <!-- Inizio main -->
+        <main>
+            <div>
+                <!-- Utente -->
+                <span>Ecco la password perfetta per</span>
+                <span id="utente">dsds</span>
+
+                <!-- Password -->
+                <div>
+                    <input type="password" minlength="8">
+                    <div id="show-or-hide" onclick="myfunction()">
+                        <i id="show-password" class="fas fa-eye"></i>
+                        <i id="hide-password" class="fas fa-eye-slash"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
     <!-- Script js -->
     <script src="script.js"></script>
 </body>
