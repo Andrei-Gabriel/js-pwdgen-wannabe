@@ -22,7 +22,6 @@
     <title>(Insicurissimo) Password Generator</title>
 </head>
 <body>
-
     <div>
         <!-- Inizio header -->
         <header>
@@ -31,18 +30,19 @@
         
         <!-- Inizio main -->
         <main>
+            <!-- Inizo Utente e Password -->
             <div>
                 <!-- Utente -->
                 <span>Ecco la password perfetta per</span>
-                <span id="utente">dsds</span>
+                <span id="utente"></span>
 
                 <!-- Password -->
                 <div>
-                    <input type="password" minlength="8" id="myInput">
-                    <div id="show-or-hide" onclick="myFunction()">
-                        <i id="show-password" class="fas fa-eye"></i>
-                        <!-- <i id="hide-password" class="fas fa-eye-slash"></i> -->
-                    </div>
+                    <input type="password" minlength="8" id="myInput" value="">
+                
+                    <!-- show or hide password -->
+                    <i id="show-password" class="fas fa-eye" onclick="myFunction()"></i>
+                    <!-- <i id="hide-password" class="fas fa-eye-slash"></i> -->
                 </div>
             </div>
         </main>
